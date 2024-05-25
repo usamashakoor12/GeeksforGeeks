@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding: 0 2rem;
+}
+.logo {
+  color: rgb(144, 177, 131);
+  font-weight: bold;
+}
+ul {
+  font-size: 1rem;
+  font-weight: bold;
+}
+ul a {
+  color: black;
+  padding: 0 1rem;
+  text-decoration: none;
+}
+section {
+  background: linear-gradient(
+    to bottom,
+    rgb(204, 255, 184),
+    rgb(242, 253, 236)
+  );
+}
+.about-section {
+  padding-top: 3rem;
+  text-align: center;
+  font-weight: bold;
+}
+.about-section h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.about-section p {
+  font-weight: 700;
+}
+.content {
+  display: flex;
+  align-items: center;
+  padding: 5rem 3rem;
+}
+img {
+  height: 12rem;
+  width: 17rem;
+}
+.abt-geek {
+  text-align: justify;
+  margin: 0 2rem;
+}
+.abt-geek p {
+  font-weight: bold;
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+}
+button {
+  background-color: rgb(103, 181, 68);
+  color: white;
+  padding: 1rem 4rem;
+  border: 1px solid rgb(103, 181, 68);
+  border-radius: 0.5rem;
+}
